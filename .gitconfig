@@ -1,0 +1,7 @@
+[user]
+	name = Juhong Park
+	email = JPark@JPark.me
+[core]
+	editor = vim
+[alias]
+	lg = log --oneline --graph --decorate --all
