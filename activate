@@ -1,0 +1,11 @@
+# Reset old PYTHONPATH
+if ! [ -z "${_OLD_VIRTUAL_PYTHONPATH+_}" ] ; then
+    PYTHONPATH="$_OLD_VIRTUAL_PYTHONPATH"
+    export PYTHONPATH
+    unset _OLD_VIRTUAL_PYTHONPATH
+fi
+
+# Add additional PYTHONPATH to virtualenv
+_OLD_VIRTUAL_PYTHONPATH="$PYTHONPATH"
+PYTHONPATH="/additional_path:$PYTHONPATH"
+export PYTHONPATH
